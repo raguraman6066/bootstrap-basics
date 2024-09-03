@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-md mt-5">
+        <!-- (md)-from medium screen onwards-->
+        <h1>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+          tempora sed quas quam voluptatum, dignissimos possimus velit nihil
+          aperiam voluptas vero fugiat, aliquam porro totam, iure voluptate
+          numquam autem eum!
+        </h1>
+
+        <div class="btn-group">
+          <!--while using btn-group ..combine all btns-->
+          <button class="btn btn-primary btn-sm">Primary</button>
+          <button class="btn btn-info">Primary</button>
+          <button class="btn btn-dark">Primary</button>
+          <button class="btn btn-outline-success">Primary</button>
+          <button class="btn btn-warning btn-lg" disabled>Primary</button>
+        </div>
+
+        <!-- dropdown -->
+        <br />
+        <br />
+        <div>
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            data-bs-toggle="dropdown"
+          >
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Do something</a></li>
+            <li><a class="dropdown-item" href="#">Do something else</a></li>
+            <li>
+              <a class="dropdown-item" href="#">Do something else else</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <br /><br />
+      <!-- card -->
+      <div class="card">
+        <h5 class="card-header">Featured Post</h5>
+        <div class="card-body">
+          <h5 class="card-title">Great post</h5>
+          <h5 class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+            inventore facilis vel repellat quia sunt animi, officia a. Rem
+            sapiente exercitationem odit dolores aut deserunt distinctio velit
+            corrupti quasi officia?
+          </h5>
+        </div>
+        <div class="card-footer text-muted">1 day ago</div>
+      </div>
+      <br /><br />
+      <!-- alert -->
+      <div class="alert alert-primary" role="alert">
+        Are you sure <a href="#">you want to delete your accounr</a>
+      </div>
+      <div class="alert alert-success" role="alert">Awesome alert</div>
+      <div class="alert alert-danger" role="alert">Awesome alert</div>
+
+      <!-- spinner -->
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+
+      <div class="spinner-grow text-danger" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+
+      <button class="btn btn-primary" disabled>
+        <span class="spinner-border spinner-border-sm"></span>
+        Loading..
+      </button>
+
+      <!-- progress -->
+      <br /><br />
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped" style="width: 50%">
+          75%
+        </div>
+      </div>
+      <br /><br />
+      <!-- collapse -->
+      <button
+        class="btn btn-primary"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseExample"
+      >
+        Click
+      </button>
+
+      <div class="collapse" id="collapseExample">
+        Hide comments until button is pressed
+      </div>
+
+      <br /><br />
+      <!-- js cdn -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+  </body>
+</html>
